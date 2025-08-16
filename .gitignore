@@ -1,0 +1,52 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# React/Vite specific
+*.cache/
+.vite/
+coverage/
+
+# MongoDB
+dump/
+*.mongodb
+
+# Optional: Ignore test snapshots
+__snapshots__/
+
+# Optional: Ignore uploads or temp files
+uploads/
+tmp/
